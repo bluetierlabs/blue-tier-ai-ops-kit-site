@@ -151,7 +151,8 @@ button {
 .problem,
 .fit,
 .buy,
-.outcomes {
+.outcomes,
+.faq {
   margin-top: 18px;
   padding: 30px;
 }
@@ -160,6 +161,7 @@ button {
 .fit ul,
 .buy p,
 .outcomes p,
+.faq p,
 footer {
   color: var(--muted);
   line-height: 1.65;
@@ -245,6 +247,21 @@ article p {
   display: block;
   margin-bottom: 8px;
   color: var(--text);
+}
+
+details {
+  border-top: 1px solid var(--line);
+  padding: 18px 0;
+}
+
+details:last-child {
+  border-bottom: 1px solid var(--line);
+}
+
+summary {
+  cursor: pointer;
+  color: var(--text);
+  font-weight: 900;
 }
 
 .buy h2 {
